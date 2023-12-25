@@ -1,5 +1,5 @@
 let number_list = [];
-let max_number = 10;
+let max_number = 100;
 let secret_number = number_generator();
 let attemps = 1;
 
@@ -13,7 +13,7 @@ function display_screen(tag, text) {
 
 function new_game_mensage() {
   display_screen('h1', 'Secret number game');
-  display_screen('p', 'Guess a number between 1 to 10');
+  display_screen('p', 'Guess a number between 1 to 100');
 }
 new_game_mensage();
 
