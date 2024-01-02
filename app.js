@@ -13,7 +13,7 @@ function display_screen(tag, text) {
 
 function new_game_mensage() {
   display_screen('h1', 'Secret number game');
-  display_screen('p', 'Guess a number between 1 to 100');
+  display_screen('p', `Guess a number between 1 to ${max_number}`);
 }
 new_game_mensage();
 
